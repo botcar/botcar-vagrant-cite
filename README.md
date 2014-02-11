@@ -8,10 +8,17 @@ Vagrant VM configurations for VirtualBox, setting up systems for scholarly proje
 
 ### saucy (Ubuntu 13.10)
 
+- git 
+- emacs
+- openjdk-7-jdk
 - apache web server, with directory root set to /vagrant/web
+- tomcat6
+- gradle
+- maven
+- fuseki
 - for working with markdown:
     - mdpress
-    - beautifuldocs (bfdocs)
+    - beautifuldocs (bfdocs), and its prerequisite nodejs
 
 
 
