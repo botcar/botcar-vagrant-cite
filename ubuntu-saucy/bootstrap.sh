@@ -19,6 +19,7 @@ apt-get install -y openjdk-7-jdk
 # make www server available from shared volume.
 apt-get install -y tomcat6
 apt-get install -y apache2
+apt-get install -y libapache2-mod-fastcgi
 rm -rf /var/www
 ln -fs /vagrant/web /var/www
 
@@ -45,6 +46,12 @@ if [ -h "fuseki" ]; then
 else
     ln -s /opt/fuseki/jena-fuseki-1.0.1 $HOME/fuseki
 fi
+
+
+# image processing and serving
+apt-get install -y iipimage-server
+
+
 
 # tools for markdown: beautifuldocs
 apt-get install -y nodejs
