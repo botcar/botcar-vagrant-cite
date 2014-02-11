@@ -1,24 +1,11 @@
 # vagrant-cite
 
-A vagrant VM configuration for 
+A vagrant VM configuration for  for VirtualBox, setting up a working system for scholarly projects working with the CITE architecture.  It includes everything needed to work through my *Brief Notes on Fundamentals of Digital Humanities* 
+(LINK TO BE ADDED).
 
-Vagrant VM configurations for VirtualBox, setting up systems for scholarly projects working with the CITE architecture.
+The project currently includes one build, for Ubuntu 13.10 (saucy) in the ubuntu-saucy directory.
 
-## Installations
-
-### saucy (Ubuntu 13.10)
-
-- git 
-- emacs
-- openjdk-7-jdk
-- apache web server, with directory root set to /vagrant/web
-- tomcat6
-- gradle
-- maven
-- fuseki
-- for working with markdown:
-    - mdpress
-    - beautifuldocs (bfdocs), and its prerequisite nodejs
+For details about the virtual machine, see [the project wiki](https://github.com/neelsmith/vagrant-cite/wiki).
 
 
 
