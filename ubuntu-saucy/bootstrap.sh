@@ -5,7 +5,7 @@ apt-get update
 
 # version control
 apt-get install -y git
-apt-get install -y subversion
+#apt-get install -y subversion
 
 # the one true editor
 apt-get install -y emacs
