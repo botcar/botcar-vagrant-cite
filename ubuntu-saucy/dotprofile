@@ -21,7 +21,7 @@ if [ -d "$HOME/bin" ] ; then
     PATH="$HOME/bin:$PATH"
 fi
 
-FUSEKI_HOME=/opt/fuseki/jena-fuseki-1.0.1/
+FUSEKI_HOME=/opt/fuseki/jena-fuseki-1.0.1
 
 PATH="$HOME/fuseki:$PATH"
 
