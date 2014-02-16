@@ -52,6 +52,8 @@ fi
 apt-get install -y iipimage-server
 
 
+# tools for markdown: pandoc
+apt-get install -y pandoc
 
 # tools for markdown: beautifuldocs
 apt-get install -y nodejs
@@ -72,7 +74,8 @@ gem install mdpress
 
 
 
-# trust apt to clean up some space for us:
+# Update and  trust apt to clean up some space for us:
+apt-get upgrade
 apt-get -y autoremove
 
 echo "Ran autoremove."
