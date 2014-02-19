@@ -47,17 +47,12 @@ else
     ln -s /opt/fuseki/jena-fuseki-1.0.1 $HOME/fuseki
 fi
 
-
 # image processing and serving
 apt-get install -y iipimage-server
 
-
-# databases 
-
+# database systems
 apt-get install -y sqlite
-
-
-
+apt-get install -y mongodb
 
 
 # tools for markdown: pandoc
@@ -71,7 +66,6 @@ else
     sudo ln -s /usr/bin/nodejs /usr/bin/node
 fi
 
-
 apt-get install -y npm
 npm install beautiful-docs
 
@@ -79,7 +73,6 @@ npm install beautiful-docs
 apt-get install -y ruby2.0 ruby2.0-dev build-essential libssl-dev zlib1g-dev ruby-switch
 ruby-switch --set ruby2.0
 gem install mdpress
-
 
 
 # Update and  trust apt to clean up some space for us:
