@@ -52,6 +52,14 @@ fi
 apt-get install -y iipimage-server
 
 
+# databases 
+
+apt-get install -y sqlite
+
+
+
+
+
 # tools for markdown: pandoc
 apt-get install -y pandoc
 
