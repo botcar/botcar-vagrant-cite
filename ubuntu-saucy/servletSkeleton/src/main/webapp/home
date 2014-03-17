@@ -1,0 +1,19 @@
+
+html.html {
+    head {
+        title("Home page")
+    }
+    
+    body {
+    
+    	header (role : "banner"){
+            h1("Project home page")
+            nav(role : "navigation")
+    	}
+    	
+    	article (role : "main") {
+	  p("A groovy builder wrote this page.")
+	}
+        footer("")
+    }
+}

@@ -1,0 +1,13 @@
+apply plugin : 'war'
+apply plugin : 'jetty'
+apply plugin : 'groovy'
+
+repositories {
+    mavenCentral()
+}
+
+
+dependencies {
+  compile group: 'org.codehaus.groovy', name: 'groovy-all', version : '2.0.6'
+}
+
