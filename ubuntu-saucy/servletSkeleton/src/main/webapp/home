@@ -12,7 +12,13 @@ html.html {
     	}
     	
     	article (role : "main") {
-	  p("A groovy builder wrote this page.")
+	  p("Example pages:")
+	  li {
+	    a(href: "mypage.groovy", "groovlet with dynamic content")
+	  }
+	  li {
+	    a(href: "plaintext.groovy", "groovlet setting response type")
+	  }
 	}
         footer("")
     }
