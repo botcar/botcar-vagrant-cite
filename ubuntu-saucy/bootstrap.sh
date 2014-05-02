@@ -7,8 +7,9 @@ apt-get update
 apt-get install -y git
 #apt-get install -y subversion
 
-# the one true editor
+# the one true editor, and the other one
 apt-get install -y emacs
+apt-get install -y vim
 
 # Get full JDK *now* so we don't pull in
 # jre as a dependency and have to
